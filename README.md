@@ -11,6 +11,8 @@
   <img src="https://img.shields.io/badge/Data-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle dataset">
 </p>
 
+[![Live preview](https://img.shields.io/badge/Streamlit-Live%20Preview-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://crocodiledata-apprjoadszyne2saevozasw.streamlit.app/)
+
 [Open the dataset on Kaggle](https://www.kaggle.com/datasets/zadafiyabhrami/global-crocodile-species-dataset)
 
 </div>
