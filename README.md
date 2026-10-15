@@ -1,94 +1,74 @@
-# 🐊 Global Crocodile Species Dataset — Exploratory Data Analysis
-
 <div align="center">
-  <img src="https://img.shields.io/badge/Python-3.x-blue?logo=python" alt="Python">
-  <img src="https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter" alt="Jupyter">
-  <img src="https://img.shields.io/badge/Status-In%20Progress-yellow" alt="Status">
-  <img src="https://img.shields.io/badge/Data-Kaggle-20BEFF?logo=kaggle" alt="Kaggle">
+
+# 🐊 Crocodile Data Dashboard
+
+### Explore observations from the Global Crocodile Species Dataset
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.x">
+  <img src="https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit dashboard">
+  <img src="https://img.shields.io/badge/Plotly-Interactive%20Charts-3F4F75?style=for-the-badge&logo=plotly&logoColor=white" alt="Interactive charts with Plotly">
+  <img src="https://img.shields.io/badge/Data-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle dataset">
+</p>
+
+[Open the dataset on Kaggle](https://www.kaggle.com/datasets/zadafiyabhrami/global-crocodile-species-dataset)
+
 </div>
 
 ---
 
-## 📋 Overview
+## Overview
 
-This project analyzes the [Global Crocodile Species Dataset](https://www.kaggle.com/datasets/zadafiyabhrami/global-crocodile-species-dataset) from Kaggle.  
-The goal is to discover patterns and relationships in the data — from age classes and habitats to body measurements and conservation status.
+This project explores the [Global Crocodile Species Dataset](https://www.kaggle.com/datasets/zadafiyabhrami/global-crocodile-species-dataset) with Jupyter notebooks and an interactive browser dashboard.
 
-> ⚠️ **Work in Progress** — The project is still under development. Additions and improvements to follow.
+The Streamlit dashboard presents:
 
----
+- Crocodile age-class distribution
+- Average and median observed length and weight
+- The five most frequently recorded habitats
+- Conservation-status distribution
+- Dataset quality metrics, including missing and duplicate values
 
-## 📁 Project Structure
+Charts are interactive: hover over data to inspect values and use Plotly's controls to zoom or explore the charts.
 
+## Run the dashboard
+
+Requirements: Python 3 and pip.
+
+From the repository root, install the project dependencies and start Streamlit:
+
+```powershell
+python -m pip install -r requirements.txt
+python -m streamlit run src/dashboard.py
 ```
-crocodile-eda/
-│
+
+Streamlit opens the dashboard in your browser. If it does not open automatically, visit [http://localhost:8501](http://localhost:8501). Keep the terminal running while you use the dashboard; press `Ctrl+C` there to stop it.
+
+## Explore the notebooks
+
+Install dependencies as above, then launch Jupyter:
+
+```powershell
+python -m jupyter notebook
+```
+
+Open `notebooks/exploration.ipynb` for dataset exploration and `notebooks/visualize.ipynb` for notebook-based visualizations.
+
+## Project structure
+
+```text
+.
 ├── data/
-│   ├── crocodile_dataset.csv      # Raw data (Kaggle)
-│   └── dataset-cover.png
-│
+│   └── crocodile_dataset.csv
 ├── notebooks/
-│   ├── exploration.ipynb          # Data exploration & quality checks
-│   └── visualize.ipynb            # Visualizations & analysis
-│
+│   ├── exploration.ipynb
+│   └── visualize.ipynb
+├── src/
+│   └── dashboard.py
+├── requirements.txt
 └── README.md
 ```
 
----
+## Data source
 
-## 🔍 Notebook Contents
-
-### `exploration.ipynb` — Data Exploration
-- Load dataset and get a first overview (`shape`, `head`, `info`, `describe`)
-- Check for missing values (`isnull`, `any`)
-- Identify duplicates
-- Examine column names and data types
-
-### `visualize.ipynb` — Visualizations
-- **Age Classes** — Distribution as bar chart with percentage labels
-- **Average Length & Weight** — Dual-axis chart (meters vs. kg)
-- **Top 5 Habitats** — Horizontal bar chart
-- **Conservation Status** — Pie chart with percentage breakdown
-- **Most Common Species** — By scientific name
-- **Sex Distribution** — Within the dataset
-
----
-
-## 🛠️ Libraries Used
-
-| Library       | Purpose                        |
-|---------------|--------------------------------|
-| `pandas`      | Data processing & analysis     |
-| `numpy`       | Numerical computations         |
-| `matplotlib`  | Charts & plots                 |
-| `seaborn`     | Statistical visualizations     |
-
----
-
-## 🚀 Quickstart
-
-```bash
-# Clone the repository
-git clone https://github.com/<your-username>/crocodile-eda.git
-cd crocodile-eda
-
-# Install dependencies
-pip install pandas numpy matplotlib seaborn jupyter
-
-# Start Jupyter
-jupyter notebook
-```
-
-Then open `notebooks/exploration.ipynb` followed by `notebooks/visualize.ipynb`.
-
----
-
-## 📊 Data Source
-
-- **Dataset:** [Global Crocodile Species Dataset](https://www.kaggle.com/datasets/zadafiyabhrami/global-crocodile-species-dataset)
-- **Platform:** Kaggle
-- **Format:** CSV
-
----
-
-*Created as a personal data analysis project.*
+The dataset is available on [Kaggle](https://www.kaggle.com/datasets/zadafiyabhrami/global-crocodile-species-dataset) as a CSV file.
