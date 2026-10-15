@@ -1,19 +1,24 @@
 <div align="center">
 
 # 🐊 Crocodile Data Dashboard
-
-### Explore observations from the Global Crocodile Species Dataset
-
-<p>
-  <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.x">
+<p align="center">
+  <img width="794" alt="Crocodile Data Dashboard preview" src="https://github.com/user-attachments/assets/426f5544-72b8-4ab5-a2a6-165db08fbc95" />
+</p>
+<p align="center">
+    <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.x">
   <img src="https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit dashboard">
   <img src="https://img.shields.io/badge/Plotly-Interactive%20Charts-3F4F75?style=for-the-badge&logo=plotly&logoColor=white" alt="Interactive charts with Plotly">
-  <img src="https://img.shields.io/badge/Data-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle dataset">
+  <a href="https://crocodiledata-apprjoadszyne2saevozasw.streamlit.app/">
+    <img src="https://img.shields.io/badge/Live%20Preview-Open%20Dashboard-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Open live dashboard">
+  </a>
+  <a href="https://www.kaggle.com/datasets/zadafiyabhrami/global-crocodile-species-dataset">
+    <img src="https://img.shields.io/badge/Dataset-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Dataset on Kaggle">
+  </a>
 </p>
 
-[![Live preview](https://img.shields.io/badge/Streamlit-Live%20Preview-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://crocodiledata-apprjoadszyne2saevozasw.streamlit.app/)
 
-[Open the dataset on Kaggle](https://www.kaggle.com/datasets/zadafiyabhrami/global-crocodile-species-dataset)
+
+
 
 </div>
 
